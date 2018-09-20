@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "test": "babel --presets=module:metro-react-native-babel-preset --verbose --compact=false index.tsx"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/plugin-transform-typescript": "^7.1.0",
+    "metro-react-native-babel-preset": "^0.45.4"
+  }
+}
